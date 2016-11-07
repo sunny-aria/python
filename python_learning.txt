@@ -1,0 +1,16 @@
+1.判断
+if :
+elif:
+else:
+2.list = ['a','b','c']
+list.append('d')
+list.insert(1,'e')
+list.pop()
+list[1] 下标从0开始，'b'
+list[-1] 倒数第一个 'c'
+3.tuple=('a','b','c')
+tuple 不可变
+tuple=('a','b',['a',b'])
+tuple=('a','b',list) 这种可以将list的内部发生变化，但是tuple 不可变
+尽可能的使用tuple代替list
+
