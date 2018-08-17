@@ -1,4 +1,5 @@
 class Student(object):
+    #相当于java的构造函数，self 是第一个参数，实例化对象的时候，不需要传入self参数
     def __init__(self,name,score):
         self.name=name
         self.score=score
@@ -12,6 +13,10 @@ class Student(object):
            print('B')
         else:
            print('C')
-        _toString()
 
+
+if __name__=='__main__':
+    d = Student('d',90)
+    d._toString()
+    d.get_grade()
         
