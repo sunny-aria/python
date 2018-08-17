@@ -7,12 +7,13 @@ class Student(object):
         print('%s:%s' % (self.name,self.score))
     
     def get_grade(self):
-        if self.score>=90:
-           print('A')
-        elif self.score>=60:
-           print('B')
-        else:
-           print('C')
+        if self.score > 100 or self.score < 0:
+            raise ValueError('成绩不合法', self.score)
+        if self.score >= 80:
+            return 'A'
+        if self.score >= 60:
+            return 'B'
+        return 'C'
 
 
 if __name__=='__main__':
