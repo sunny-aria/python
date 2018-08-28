@@ -33,4 +33,4 @@ class TestStudent(unittest.TestCase):
 
 #main必须靠左
 if __name__ == '__main__':
-        unittest.main()
+        unittest.main() #执行单元测试，调用main方法执行所有的单元测试方法
