@@ -13,4 +13,4 @@ class slotDemo(object):
 demo = slotDemo()
 demo.name='hd'
 demo.age1 =19 #测试__slots__
-demo.__str__()
+
